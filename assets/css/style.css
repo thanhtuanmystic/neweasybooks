@@ -883,6 +883,12 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 8rem 0;
   background: var(--Gray-800, #040f3e);
 }
+#footer .logoes-footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
 #footer .footer-col-left {
   display: inline-flex;
   flex-direction: column;
@@ -933,7 +939,7 @@ nav .navbar .links li:hover .js-sub-menu {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
-#footer .all-product-show {
+#footer .all-product .all-product-show {
   position: absolute;
   background: #fff;
   bottom: 130%;
@@ -944,36 +950,36 @@ nav .navbar .links li:hover .js-sub-menu {
   display: none;
   border: 1px solid #ccc;
 }
-#footer .all-product-show .all-product-box {
+#footer .all-product .all-product-show .all-product-box {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
 }
-#footer .all-product-show .all-product-box .all-product-col {
+#footer .all-product .all-product-show .all-product-box .all-product-col {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-#footer .all-product-show .all-product-box .all-product-col .all-product-nav-title {
+#footer .all-product .all-product-show .all-product-box .all-product-col .all-product-nav-title {
   color: var(--Gray-800, #040f3e);
   font-size: 1.8rem;
 }
-#footer .all-product-show .all-product-box .all-product-col .list-software {
+#footer .all-product .all-product-show .all-product-box .all-product-col .list-software {
   display: flex;
   flex-direction: column;
 }
-#footer .all-product-show .software-row {
+#footer .all-product .all-product-show .software-row {
   padding: 1rem;
   gap: 2rem;
 }
-#footer .all-product-show .software-row:hover {
+#footer .all-product .all-product-show .software-row:hover {
   background: var(--primary-5, #fdeee9);
 }
-#footer .all-product-show .software-row .software .software-title {
+#footer .all-product .all-product-show .software-row .software .software-title {
   color: var(--Gray-800, #040f3e);
 }
-#footer .all-product-show .software-row .software .software-des {
+#footer .all-product .all-product-show .software-row .software .software-des {
   color: var(--Gray-900, #030b2c);
   font-family: Averta-regular;
 }
@@ -988,6 +994,26 @@ nav .navbar .links li:hover .js-sub-menu {
 #footer .arrow-down {
   transform: rotate(0deg);
   transition: transform 0.3s;
+}
+#footer .footer-col-heading {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Averta-regular";
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+#footer .list-title-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+#footer .list-title-footer li {
+  color: #fff;
+  font-size: 1.6rem;
+}
+#footer .footer-credit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
 }
 
 /* Responsive */

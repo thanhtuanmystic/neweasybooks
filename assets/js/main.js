@@ -69,3 +69,9 @@ function addAnimation() {
     });
   });
 }
+
+// Click all product footer
+$('.all-product').on('click', function () {
+  $('.all-product-show').toggle();
+  $('.arrowclass').toggleClass('arrow-up');
+});

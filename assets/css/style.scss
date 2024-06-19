@@ -794,3 +794,264 @@ nav .navbar .links li:hover .js-sub-menu {
     }
   }
 }
+#outstanding_news {
+  padding: $section_distance 0;
+  background: var(--Primary-300, #fdeee9);
+  .outstanding-news-box {
+    padding: 1.6rem 1.6rem 3.2rem 1.6rem;
+    border-radius: 16px;
+    background: #fff;
+    height: 100%;
+    .outstanding-news-detail {
+      .news-name {
+        color: var(--Gray-800, #040f3e);
+        font-size: 2.4rem;
+        margin-top: 1.6rem;
+      }
+      .news-des {
+        color: var(--Gray-600, #575e7e);
+        font-family: "Averta-regular";
+        font-size: 1.6rem;
+      }
+    }
+    .by-line {
+      color: var(--Secondary-1, #172d58);
+      font-size: 1.6rem;
+      font-family: "Averta-regular";
+      margin-top: 4.5rem;
+      .news-author {
+        color: var(--Secondary-1, #172d58);
+        font-size: 1.6rem;
+      }
+      .news-datetime {
+        color: var(--Gray-4, #9ba3b1);
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .esb-primary-btn {
+    width: 18%;
+    margin: 4rem auto 0;
+  }
+}
+#esb_form_register {
+  padding: $section_distance 0;
+  .heading {
+    color: var(--Gray-800, #040f3e);
+    font-size: 2.4rem;
+    line-height: 4.2rem; /* 175% */
+    span {
+      background: var(
+        --Gradient,
+        linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .list-why {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+    li {
+      div {
+        color: var(--Gray-800, #040f3e);
+        font-family: "Averta-regular";
+        font-size: 1.6rem;
+        span {
+          font-family: "Averta-bold";
+        }
+      }
+      display: flex;
+      gap: 1.6rem;
+      align-items: center;
+    }
+  }
+  .form-register .form-box {
+    display: flex;
+    padding: 3.2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.8rem;
+    border-radius: 1.6rem;
+    background: var(
+      --Gradient,
+      linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%)
+    );
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+    .form-title {
+      color: #fff;
+      font-size: 1.8rem;
+      margin-bottom: 2.8rem;
+    }
+    .form-info {
+      width: 100%;
+      border-radius: 1.2rem;
+      background: #fff;
+      display: flex;
+      padding: 2.4rem;
+      flex-direction: column;
+      gap: 1.6rem;
+      -webkit-border-radius: 1.2rem;
+      -moz-border-radius: 1.2rem;
+      -ms-border-radius: 1.2rem;
+      -o-border-radius: 1.2rem;
+      .form-row input,
+      .form-row select {
+        padding: 0.8rem 0 0.8rem 1.6rem;
+        border-radius: 0.6rem;
+        border: 1px solid var(--Gray-300, #e6e7ec);
+        background: #fff;
+        color: var(--Gray-700, #363f65);
+        font-family: "Averta-regular";
+        font-size: 1.8rem;
+        -webkit-border-radius: 0.6rem;
+        -moz-border-radius: 0.6rem;
+        -ms-border-radius: 0.6rem;
+        -o-border-radius: 0.6rem;
+      }
+    }
+  }
+  .esb-primary-btn {
+    border: none;
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+#footer {
+  padding: $section_distance 0;
+  background: var(--Gray-800, #040f3e);
+  .footer-col-left {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: flex-start;
+    .footer-slogan {
+      /* Sub1/16/Bold */
+      font-size: 1.6rem;
+      background: var(
+        --Gradient,
+        linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .footer-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+      li {
+        display: flex;
+        gap: 1.2rem;
+        align-items: center;
+        color: var(--white, #fff);
+        font-family: "Averta-regular";
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .footer-list-sns {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .all-product {
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    padding: 8px 18px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+
+  .all-product-show {
+    position: absolute;
+    background: #fff;
+    bottom: 130%;
+    left: 0;
+    width: 100rem;
+    padding: 3rem 5rem;
+    border-radius: 10px;
+    display: none;
+    border: 1px solid #ccc;
+    .all-product-box {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      .all-product-col {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .all-product-nav-title {
+          color: var(--Gray-800, #040f3e);
+          font-size: 1.8rem;
+        }
+        .list-software {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+    .software-row {
+      padding: 1rem;
+      gap: 2rem;
+      &:hover {
+        background: var(--primary-5, #fdeee9);
+      }
+      .software {
+        .software-title {
+          color: var(--Gray-800, #040f3e);
+        }
+        .software-des {
+          color: var(--Gray-900, #030b2c);
+          font-family: Averta-regular;
+        }
+      }
+    }
+  }
+
+  .arrow-up {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+  }
+
+  .arrow-down {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+  }
+}
+
+/* Responsive */
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+}

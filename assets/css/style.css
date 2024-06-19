@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Googlefont Poppins CDN Link */
 @font-face {
   font-family: Averta-bold;
@@ -754,5 +755,244 @@ nav .navbar .links li:hover .js-sub-menu {
 #esb_feedback .feedback-box .feedback-info .five-star {
   margin-top: auto;
 }
+
+#outstanding_news {
+  padding: 8rem 0;
+  background: var(--Primary-300, #fdeee9);
+}
+#outstanding_news .outstanding-news-box {
+  padding: 1.6rem 1.6rem 3.2rem 1.6rem;
+  border-radius: 16px;
+  background: #fff;
+  height: 100%;
+}
+#outstanding_news .outstanding-news-box .outstanding-news-detail .news-name {
+  color: var(--Gray-800, #040f3e);
+  font-size: 2.4rem;
+  margin-top: 1.6rem;
+}
+#outstanding_news .outstanding-news-box .outstanding-news-detail .news-des {
+  color: var(--Gray-600, #575e7e);
+  font-family: "Averta-regular";
+  font-size: 1.6rem;
+}
+#outstanding_news .outstanding-news-box .by-line {
+  color: var(--Secondary-1, #172d58);
+  font-size: 1.6rem;
+  font-family: "Averta-regular";
+  margin-top: 4.5rem;
+}
+#outstanding_news .outstanding-news-box .by-line .news-author {
+  color: var(--Secondary-1, #172d58);
+  font-size: 1.6rem;
+}
+#outstanding_news .outstanding-news-box .by-line .news-datetime {
+  color: var(--Gray-4, #9ba3b1);
+  font-size: 1.6rem;
+}
+#outstanding_news .esb-primary-btn {
+  width: 18%;
+  margin: 4rem auto 0;
+}
+
+#esb_form_register {
+  padding: 8rem 0;
+}
+#esb_form_register .heading {
+  color: var(--Gray-800, #040f3e);
+  font-size: 2.4rem;
+  line-height: 4.2rem; /* 175% */
+}
+#esb_form_register .heading span {
+  background: var(--Gradient, linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#esb_form_register .list-why {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+#esb_form_register .list-why li {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+#esb_form_register .list-why li div {
+  color: var(--Gray-800, #040f3e);
+  font-family: "Averta-regular";
+  font-size: 1.6rem;
+}
+#esb_form_register .list-why li div span {
+  font-family: "Averta-bold";
+}
+#esb_form_register .form-register .form-box {
+  display: flex;
+  padding: 3.2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.8rem;
+  border-radius: 1.6rem;
+  background: var(--Gradient, linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%));
+  -webkit-border-radius: 1.6rem;
+  -moz-border-radius: 1.6rem;
+  -ms-border-radius: 1.6rem;
+  -o-border-radius: 1.6rem;
+}
+#esb_form_register .form-register .form-box .form-title {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 2.8rem;
+}
+#esb_form_register .form-register .form-box .form-info {
+  width: 100%;
+  border-radius: 1.2rem;
+  background: #fff;
+  display: flex;
+  padding: 2.4rem;
+  flex-direction: column;
+  gap: 1.6rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+#esb_form_register .form-register .form-box .form-info .form-row input,
+#esb_form_register .form-register .form-box .form-info .form-row select {
+  padding: 0.8rem 0 0.8rem 1.6rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--Gray-300, #e6e7ec);
+  background: #fff;
+  color: var(--Gray-700, #363f65);
+  font-family: "Averta-regular";
+  font-size: 1.8rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}
+#esb_form_register .esb-primary-btn {
+  border: none;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#footer {
+  padding: 8rem 0;
+  background: var(--Gray-800, #040f3e);
+}
+#footer .footer-col-left {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: flex-start;
+}
+#footer .footer-col-left .footer-slogan {
+  /* Sub1/16/Bold */
+  font-size: 1.6rem;
+  background: var(--Gradient, linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#footer .footer-col-left .footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+#footer .footer-col-left .footer-info li {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  color: var(--white, #fff);
+  font-family: "Averta-regular";
+  font-size: 1.4rem;
+}
+#footer .footer-list-sns {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+#footer .all-product {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  padding: 8px 18px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+#footer .all-product-show {
+  position: absolute;
+  background: #fff;
+  bottom: 130%;
+  left: 0;
+  width: 100rem;
+  padding: 3rem 5rem;
+  border-radius: 10px;
+  display: none;
+  border: 1px solid #ccc;
+}
+#footer .all-product-show .all-product-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#footer .all-product-show .all-product-box .all-product-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#footer .all-product-show .all-product-box .all-product-col .all-product-nav-title {
+  color: var(--Gray-800, #040f3e);
+  font-size: 1.8rem;
+}
+#footer .all-product-show .all-product-box .all-product-col .list-software {
+  display: flex;
+  flex-direction: column;
+}
+#footer .all-product-show .software-row {
+  padding: 1rem;
+  gap: 2rem;
+}
+#footer .all-product-show .software-row:hover {
+  background: var(--primary-5, #fdeee9);
+}
+#footer .all-product-show .software-row .software .software-title {
+  color: var(--Gray-800, #040f3e);
+}
+#footer .all-product-show .software-row .software .software-des {
+  color: var(--Gray-900, #030b2c);
+  font-family: Averta-regular;
+}
+#footer .arrow-up {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+  -webkit-transition: transform 0.3s;
+  -moz-transition: transform 0.3s;
+  -ms-transition: transform 0.3s;
+  -o-transition: transform 0.3s;
+}
+#footer .arrow-down {
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+
+/* Responsive */
+/*Ipad ngang(1024 x 768)*/
+/*Ipad dọc(768 x 1024)*/
+/*Tablet nhỏ(480 x 640)*/
 
 /*# sourceMappingURL=style.css.map */

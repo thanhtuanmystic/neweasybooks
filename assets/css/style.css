@@ -511,6 +511,11 @@ nav .navbar .links li:hover .js-sub-menu {
   font-size: 1.6rem;
   cursor: pointer;
 }
+#esb_complete_solutions .list-solution .solution-click h3 {
+  color: var(--Gray-800, #040f3e);
+  font-family: "Averta-regular";
+  font-size: 1.6rem;
+}
 #esb_complete_solutions .list-solution .solution-click:hover {
   background: var(--Gradient, linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%));
   background-clip: text;

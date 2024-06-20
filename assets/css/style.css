@@ -1080,6 +1080,85 @@ nav .navbar .links li:hover .js-sub-menu {
   flex-direction: row-reverse;
 }
 
+.easybooks_price .list-price {
+  padding: 5rem 0;
+}
+.easybooks_price .list-price .price-box {
+  border-radius: 16px;
+  background: var(--Primary-300, #fdeee9);
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  height: 100%;
+}
+.easybooks_price .list-price .price-box .thongtu-name {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.2rem 1.2rem;
+  border-radius: 6px;
+  background: var(--Primary-300, #fff);
+}
+.easybooks_price .list-price .price-box .thongtu-name div {
+  font-size: 2.4rem;
+  background: var(--Gradient, linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.easybooks_price .list-price .price-box .esb-primary-btn div {
+  width: 100%;
+}
+.easybooks_price .list-price .price-box .nolimit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.easybooks_price .list-price .price-box .nolimit li {
+  color: var(--Gray-800, #040f3e);
+  /* Body/16/Re */
+  font-family: "Averta-regular";
+  font-size: 1.6rem;
+  line-height: 2.8rem; /* 175% */
+}
+.easybooks_price .list-price .price-box .price-specific {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.6rem;
+  align-items: baseline;
+  gap: 1rem;
+  background: var(--Gradient-3, linear-gradient(232deg, #c03e55 4.15%, #673471 37.46%, #012891 94.43%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.easybooks_price .list-price .price-box .price-specific span {
+  color: var(--Gray-800, #040f3e) !important;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+}
+.easybooks_price .list-price .price-box .allow {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.easybooks_price .list-price .price-box .allow li {
+  color: var(--Gray-800, #040f3e);
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.easybooks_price .list-price .note {
+  font-family: "Averta-regular";
+  color: var(--Gray-800, #040f3e);
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
 /* Responsive */
 /*Màn to(>1600px)*/
 @media screen and (min-width: 1600px) {
@@ -1168,6 +1247,15 @@ nav .navbar .links li:hover .js-sub-menu {
   .easybooks_chucnang .list-function .function-row .function-info .funtion-list-btn .esb-second-btn div {
     font-size: 1.4rem;
   }
+  .easybooks_price .list-price .price-box .price-specific {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .easybooks_price .list-price .price-box {
+    padding: 2rem;
+    gap: 1.5rem;
+  }
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px) {
@@ -1213,6 +1301,10 @@ nav .navbar .links li:hover .js-sub-menu {
   }
   #esb_video #VisaChipCardVideo {
     height: 33rem;
+  }
+  .easybooks_price .list-price .price-box .price-specific {
+    flex-direction: row;
+    gap: 1rem;
   }
 }
 /*Tablet nhỏ(480 x 640)*/
@@ -1262,6 +1354,9 @@ nav .navbar .links li:hover .js-sub-menu {
   }
   .main-title .main-title-sub {
     font-size: 1.6rem;
+  }
+  .easybooks_price .list-price .price-box {
+    gap: 1rem;
   }
 }
 

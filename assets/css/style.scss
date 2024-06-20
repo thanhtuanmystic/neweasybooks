@@ -1225,7 +1225,100 @@ nav .navbar .links li:hover .js-sub-menu {
     }
   }
 }
+.easybooks_contact {
+  .contact-form {
+    padding: 5rem 0;
+    .form-register .form-box {
+      display: flex;
+      padding: 3.2rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.4rem;
+      border-radius: 1.6rem;
+      background: var(--Gradient-2, linear-gradient(269deg, #F37B20 0.55%, #EC3E2B 56.04%));
+      -webkit-border-radius: 1.6rem;
+      -moz-border-radius: 1.6rem;
+      -ms-border-radius: 1.6rem;
+      -o-border-radius: 1.6rem;
+      .form-title {
+        color: #fff;
+        font-size: 2.4rem;
+      }
+      .form-info {
+        width: 100%;
+        border-radius: 1.2rem;
+        background: #fff;
+        display: flex;
+        padding: 2.4rem;
+        flex-direction: column;
+        gap: 1.6rem;
+        -webkit-border-radius: 1.2rem;
+        -moz-border-radius: 1.2rem;
+        -ms-border-radius: 1.2rem;
+        -o-border-radius: 1.2rem;
+        .form-row input,
+        .form-row select {
+          padding: 0.8rem 0 0.8rem 1.6rem;
+          border-radius: 0.6rem;
+          border: 1px solid var(--Gray-300, #e6e7ec);
+          background: #fff;
+          color: var(--Gray-700, #363f65);
 
+          font-family: "Averta-regular";
+          font-size: 1.8rem;
+          -webkit-border-radius: 0.6rem;
+          -moz-border-radius: 0.6rem;
+          -ms-border-radius: 0.6rem;
+          -o-border-radius: 0.6rem;
+        }
+        .esb-primary-btn {
+          background: none;
+          border: none;
+          div {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .contact-col-right {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 2.4rem;
+      align-items: flex-start;
+      .footer-slogan {
+        /* Sub1/16/Bold */
+        font-size: 1.6rem;
+        background: var(
+          --Gradient,
+          linear-gradient(180deg, #f37b20 0%, #ec3e2b 100%)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        li {
+          display: flex;
+          gap: 1.2rem;
+          align-items: center;
+          color: var(--Gray-800, #040F3E);
+          font-family: "Averta-regular";
+          font-size: 1.4rem;
+        }
+      }
+      .contact-map {
+        width: 80%;
+        iframe {
+          width: 100%;
+          height: 30rem;
+        }
+      }
+    }
+  }
+}
 /* Responsive */
 
 /*Màn to(>1600px)*/
@@ -1335,6 +1428,26 @@ nav .navbar .links li:hover .js-sub-menu {
   .easybooks_price .list-price .price-box  {
     padding: 2rem;
     gap: 1.5rem;
+  }
+  .easybooks_contact .contact-form .contact-col-right {
+    gap: 1rem;
+  }
+  .easybooks_contact .contact-form .contact-col-right .footer-info  {
+    gap: 1rem;
+  }
+  .easybooks_contact .contact-form .form-register .form-box  {
+    padding: 2rem;
+    gap: 1rem;
+    .form-title {
+      font-size: 2rem;
+    }
+    .form-info {
+      .form-row {
+        input, select {
+          font-size: 1.4rem;
+        }
+      }
+    }
   }
 }
 
@@ -1447,5 +1560,8 @@ nav .navbar .links li:hover .js-sub-menu {
   }
   .easybooks_price .list-price .price-box { 
     gap: 1rem;
+  }
+  .easybooks_contact .contact-form { 
+    padding: 2rem 0;
   }
 }

@@ -1244,4 +1244,7 @@ nav .navbar .links li:hover .js-sub-menu {
     flex-direction: column;
     gap: 2rem;
   }
+  nav .navbar {
+    flex-direction: row-reverse;
+  }
 }
